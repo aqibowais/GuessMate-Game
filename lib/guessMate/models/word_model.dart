@@ -1,7 +1,8 @@
 import 'package:equatable/equatable.dart';
-import 'package:flutter/foundation.dart';
-import 'package:guess_mate/guessMate/models/letter_model.dart';
 
+import '../guess_mate.dart';
+
+// ignore: must_be_immutable
 class WordModel extends Equatable {
   List<LetterModel> letters;
   WordModel({required this.letters});
